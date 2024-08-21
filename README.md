@@ -51,9 +51,13 @@ El proyecto incluye gráficos que comparan los valores reales con las prediccion
 
 ### Archivos en el Repositorio
 Customer Revenue Prediction Algorithms.ipynb: Notebook principal con el análisis y la implementación de los modelos.
+
 banco.xlsx: Archivo de datos utilizado para el análisis.
+
 README.md: Este archivo de documentación.
+
 requirements.txt: Lista de dependencias necesarias para ejecutar el notebook.
+
 
 ## Conclusiones
 El modelo RandomForest ajustado resultó ser el más eficaz para predecir los ingresos de los clientes, basado en las métricas de MSE y R². Este proyecto demuestra el proceso completo de preparación de datos, ajuste de modelos y evaluación de resultados, proporcionando una guía clara para la implementación de algoritmos de predicción en problemas similares.
