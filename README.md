@@ -10,7 +10,9 @@ El proceso incluye la transformación de datos, la división en conjuntos de ent
 
 Se transforma la columna Historial Crediticio a valores numéricos para facilitar su uso en los modelos:
 0: Bueno
+
 1: Regular
+
 2: Malo
 
 ##### 2.Separación de Variables:
