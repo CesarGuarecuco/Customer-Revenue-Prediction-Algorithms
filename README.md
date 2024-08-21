@@ -6,6 +6,7 @@ Este proyecto tiene como objetivo predecir los ingresos de los clientes utilizan
 El proceso incluye la transformación de datos, la división en conjuntos de entrenamiento y prueba, la elaboración de modelos de predicción, el ajuste de hiperparámetros y la comparación de los modelos obtenidos.
 
 ## Instrucciones del Proyecto
+
 ##### 1.Transformación de la Columna 'Historial Crediticio':
 
 Se transforma la columna Historial Crediticio a valores numéricos para facilitar su uso en los modelos:
@@ -16,28 +17,37 @@ Se transforma la columna Historial Crediticio a valores numéricos para facilita
 
 2: Malo
 
+
 ##### 2.Separación de Variables:
 Se identifican las variables independientes y la variable dependiente (R3ta) para construir los modelos predictivos.
 
+
 ##### 3.División de Conjuntos de Datos:
 Los datos se dividen en un conjunto de entrenamiento (75%) y un conjunto de prueba (25%) para evaluar el rendimiento de los modelos.
+
 
 ##### 4.Elaboración de Modelos de Predicción:
 Se implementan dos modelos iniciales utilizando Scikit-learn.
 Se utilizan técnicas de ajuste de hiperparámetros con GridSearchCV para optimizar otros dos modelos.
 
+
 ##### 5.Comparación de Modelos:
 Se comparan los modelos utilizando métricas como el MSE (Mean Squared Error) y el R² (Coeficiente de Determinación).
+
 
 ## Resultados Obtenidos
 El mejor modelo fue el RandomForest ajustado, con los siguientes resultados:
 
 MSE: 0.048464
+
 R²: 0.86613
+
 Estos resultados indican que el modelo tiene un bajo error de predicción y una alta capacidad para explicar la variabilidad de los ingresos de los clientes.
+
 
 ## Visualización
 El proyecto incluye gráficos que comparan los valores reales con las predicciones, facilitando la evaluación visual del rendimiento de los modelos.
+
 
 ### Archivos en el Repositorio
 Customer Revenue Prediction Algorithms.ipynb: Notebook principal con el análisis y la implementación de los modelos.
